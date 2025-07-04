@@ -1,28 +1,22 @@
-股票
+股市
+小米
+药明生物
 京东
-字节
+腾讯
 特斯拉
 微软
-Microsoft
 英伟达
-NVIDIA
 AMD
 谷歌
-google
 
-
-ai
-!gai
+人工智能
+AI
 chatgpt
 openai
 claude
 Anthropic
-iphone
-ipad
-mac
-ios
-
-人工智能
+Agent
+MCP
 
 汽车
 
@@ -32,8 +26,6 @@ ios
 半导体
 光刻机
 
-月球
-登月
-火星
-宇宙
-飞船
+美国
+特朗普
+马斯克
