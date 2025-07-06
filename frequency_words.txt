@@ -9,12 +9,12 @@
 AMD
 谷歌
 
-人工智能
 AI
-chatgpt
 openai
 claude
 Anthropic
+gemini
+qwen
 !JKAI
 !gai
 
