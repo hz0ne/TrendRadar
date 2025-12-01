@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-01 12:36:46</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 特朗普 马斯克</td>
+                    <td class="count">10</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760417" target="_blank" class="news-link">特朗普称“已决定新美联储主席人选”，哈塞特“市场对新主席消息的反应非常非常积极”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BB%99%E7%BE%8E%E5%9B%BD%E4%BC%B4%E5%A8%98%E9%80%81%E5%A4%96%E5%8D%96%E4%BC%9A%E6%9C%89%E5%A4%9A%E5%B0%91%E5%B0%8F%E8%B4%B9" target="_blank" class="news-link">给美国伴娘送外卖会有多少小费</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215261" target="_blank" class="news-link">鲍威尔要辞职？特朗普：已选定下任美联储主席 将很快公布！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oizWNiI4Dt" target="_blank" class="news-link">特朗普：已确定美联储主席继任者，很快就会宣布</a> [7] <font color='grey'>- 12时36分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8oikvl8KaAC" target="_blank" class="news-link">特朗普：关闭委内瑞拉领空并不意味着即将发生空袭</a> [8] <font color='grey'>- 12时36分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8oikvl8KaCy" target="_blank" class="news-link">特朗普：俄乌和平协议“很有可能”达成</a> [9] <font color='grey'>- 12时36分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760404" target="_blank" class="news-link">特朗普与委总统通话，直接要求对方下台！</a> [10] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E4%BF%84%E4%B9%8C%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE%E2%80%9C%E5%BE%88%E5%8F%AF%E8%83%BD%E2%80%9D%E8%BE%BE%E6%88%90" target="_blank" class="news-link">特朗普：俄乌和平协议“很可能”达成</a> [20] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32075486" target="_blank" class="news-link">美国宣称“全面关闭”委内瑞拉领空，多国批评：“非法”“专横”</a> [20] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%B7%B2%E9%80%89%E5%AE%9A%E4%B8%8B%E4%BB%BB%E7%BE%8E%E8%81%94%E5%82%A8%E4%B8%BB%E5%B8%AD" target="_blank" class="news-link">特朗普：已选定下任美联储主席</a> [23] <font color='grey'>- 12时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">股市 小米 药明生物 京东 腾讯 特斯拉 微软 英伟达 AMD 谷歌</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2215087" target="_blank" class="news-link">谷歌加冕“AI新王”之际 先进封装格局生变 EMIB何以接棒CoWoS？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时36分</font><br><div class='new-title'>🆕 [douyin] <a href="https://www.douyin.com/hot/2322868" target="_blank" class="news-link">小米汽车将开放现车选购</a> [15] <font color='grey'>- 12时36分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347602&amp;amp;topic_name=%E5%BC%83%E5%B8%85%E4%BF%9D%E8%BD%A6%3F%E5%B0%8F%E7%B1%B3%E5%90%AF%E5%8A%A8%E5%8E%BB%E9%9B%B7%E5%86%9B%E5%8C%96" target="_blank" class="news-link">弃帅保车?小米启动去雷军化</a> [21] <font color='grey'>- 12时36分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7577675094711222282/" target="_blank" class="news-link">小米汽车11月交付量超过4万辆</a> [24] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%B0%86%E5%BC%80%E6%94%BE%E2%80%9C%E7%8E%B0%E8%BD%A6%E9%80%89%E8%B4%AD%E2%80%9D" target="_blank" class="news-link">小米汽车将开放“现车选购”</a> [25] <font color='grey'>- 12时36分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347587&amp;amp;topic_name=%E7%A2%B0%E6%92%9E%E8%BD%AE%E6%AF%82%E9%A3%9E%21%E7%AB%9F%E6%98%AF%E5%B0%8F%E7%B1%B3%E4%BF%9D%E5%91%BD%E7%BB%9D%E6%8B%9B" target="_blank" class="news-link">碰撞轮毂飞!竟是小米保命绝招</a> [26] <font color='grey'>- 12时36分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578719989142834726/" target="_blank" class="news-link">小米汽车“现车选购”即将开启</a> [27] <font color='grey'>- 12时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">AI openai claude Anthropic gemini qwen</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760398" target="_blank" class="news-link">OpenAI大溃败！GPT-5「换皮」GPT-4o，两年半预训练0突破</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时36分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215163" target="_blank" class="news-link">海外大厂提价！AI催生钽电容缺口 国内厂商谁能接棒涨价红利？|行业观察</a> [8] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215541" target="_blank" class="news-link">字节搅动端侧AI风云！豆包发布手机助手预览版 又一轮换机潮可期？</a> [12] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215245" target="_blank" class="news-link">华为首款AI情绪陪伴玩具售罄缺货 AI端侧赛道投资价值凸现</a> [13] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [weibo] <a href="https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%83%B3%E5%88%B0%E5%A4%B8%E5%85%8BAI%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E4%B9%88%E7%94%A8%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">没想到夸克AI浏览器还可以这么用</a> [15] <font color='grey'>- 12时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">汽车</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578661450617458212/" target="_blank" class="news-link">普京为何突然带货中国电动汽车</a> [6] <font color='grey'>- 12时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578705598729469995/" target="_blank" class="news-link">岚图汽车11月交付20005辆</a> [13] <font color='grey'>- 12时36分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2215176" target="_blank" class="news-link">机器人产品已覆盖感知端与决策端 机器人概念股单日涨近13% 本周机构密集调研相关上市公司</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时36分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 18 条)</h3>
+            <h4>今日头条 (4 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7578661450617458212/" target="_blank" class="news-link">普京为何突然带货中国电动汽车</a> [6]</li><li><a href="https://www.toutiao.com/trending/7578705598729469995/" target="_blank" class="news-link">岚图汽车11月交付20005辆</a> [13]</li><li><a href="https://www.toutiao.com/trending/7577675094711222282/" target="_blank" class="news-link">小米汽车11月交付量超过4万辆</a> [24]</li><li><a href="https://www.toutiao.com/trending/7578719989142834726/" target="_blank" class="news-link">小米汽车“现车选购”即将开启</a> [27]</li></ul><h4>百度热搜 (3 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E4%BF%84%E4%B9%8C%E5%92%8C%E5%B9%B3%E5%8D%8F%E8%AE%AE%E2%80%9C%E5%BE%88%E5%8F%AF%E8%83%BD%E2%80%9D%E8%BE%BE%E6%88%90" target="_blank" class="news-link">特朗普：俄乌和平协议“很可能”达成</a> [20]</li><li><a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%B7%B2%E9%80%89%E5%AE%9A%E4%B8%8B%E4%BB%BB%E7%BE%8E%E8%81%94%E5%82%A8%E4%B8%BB%E5%B8%AD" target="_blank" class="news-link">特朗普：已选定下任美联储主席</a> [23]</li><li><a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%B0%86%E5%BC%80%E6%94%BE%E2%80%9C%E7%8E%B0%E8%BD%A6%E9%80%89%E8%B4%AD%E2%80%9D" target="_blank" class="news-link">小米汽车将开放“现车选购”</a> [25]</li></ul><h4>华尔街见闻 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3760417" target="_blank" class="news-link">特朗普称“已决定新美联储主席人选”，哈塞特“市场对新主席消息的反应非常非常积极”</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3760404" target="_blank" class="news-link">特朗普与委总统通话，直接要求对方下台！</a> [10]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_32075486" target="_blank" class="news-link">美国宣称“全面关闭”委内瑞拉领空，多国批评：“非法”“专横”</a> [20]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%BB%99%E7%BE%8E%E5%9B%BD%E4%BC%B4%E5%A8%98%E9%80%81%E5%A4%96%E5%8D%96%E4%BC%9A%E6%9C%89%E5%A4%9A%E5%B0%91%E5%B0%8F%E8%B4%B9" target="_blank" class="news-link">给美国伴娘送外卖会有多少小费</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>财联社热门 (4 条)</h4><ul><li><a href="https://www.cls.cn/detail/2215261" target="_blank" class="news-link">鲍威尔要辞职？特朗普：已选定下任美联储主席 将很快公布！</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.cls.cn/detail/2215163" target="_blank" class="news-link">海外大厂提价！AI催生钽电容缺口 国内厂商谁能接棒涨价红利？|行业观察</a> [8]</li><li><a href="https://www.cls.cn/detail/2215541" target="_blank" class="news-link">字节搅动端侧AI风云！豆包发布手机助手预览版 又一轮换机潮可期？</a> [12]</li><li><a href="https://www.cls.cn/detail/2215245" target="_blank" class="news-link">华为首款AI情绪陪伴玩具售罄缺货 AI端侧赛道投资价值凸现</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8oizWNiI4Dt" target="_blank" class="news-link">特朗普：已确定美联储主席继任者，很快就会宣布</a> [7]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%83%B3%E5%88%B0%E5%A4%B8%E5%85%8BAI%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E4%B9%88%E7%94%A8%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">没想到夸克AI浏览器还可以这么用</a> [15]</li></ul><h4>douyin (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2322868" target="_blank" class="news-link">小米汽车将开放现车选购</a> [15]</li></ul></div>
+        </body>
+        </html>
+        
